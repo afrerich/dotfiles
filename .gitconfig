@@ -1,0 +1,16 @@
+[color]
+   ui = true
+[alias]
+   s = status -su
+   l = log --graph --pretty=format:'%C(yellow)%h%C(cyan)%d%Creset %s %C(white)- %an, %ar%Creset'
+   la = l --all
+   co = checkout
+[user]
+        name = Aaron Frerichs
+        email = afrerich@gmail.com
+[init]
+        defaultBranch = main
+[github]
+        user = afrerich
+[push]
+        default = simple
